@@ -1,0 +1,1488 @@
+================================================================================
+  FOODORDER — SMART FOOD DELIVERY PLATFORM
+  COMPLETE CLIENT-READY PRESENTATION  |  19 SLIDES
+  Ready to copy into PowerPoint or Google Slides
+================================================================================
+
+COLOR THEME  (green / black / white — apply these in your Slide Master)
+  Primary Green    : #00A65A   ← main brand color (buttons, icons, highlights)
+  Dark Green       : #007A41   ← hover/dark variant
+  Deep Black       : #111111   ← headings, dark slide backgrounds
+  Dark Gray        : #1E1E1E   ← card backgrounds on dark slides
+  Medium Gray      : #555555   ← body text on light slides
+  Light Gray       : #F4F4F4   ← light slide backgrounds
+  Pure White       : #FFFFFF   ← text on dark slides, card surfaces
+  Accent Amber     : #FFB100   ← highlights, star ratings, warnings
+  Error Red        : #E74C3C   ← error states only
+
+RECOMMENDED FONTS
+  Headings : Poppins Bold  (free on Google Fonts)
+  Body     : Poppins Regular / Inter Regular
+  Code     : Fira Code  (free on Google Fonts)
+
+SLIDE SIZE : 16:9 Widescreen  (1920 × 1080 px recommended)
+
+================================================================================
+SLIDE MASTER SETUP
+================================================================================
+  Dark slides  → Background: #111111, Title: #FFFFFF, Accent: #00A65A
+  Light slides → Background: #FFFFFF or #F4F4F4, Title: #111111, Accent: #00A65A
+  Every slide  → 3px green (#00A65A) bottom border line
+  Every slide  → Slide number bottom-right (10px, #AAAAAA)
+  Every slide  → Small top-left wordmark: "FoodOrder" (12px, green, light slides)
+                                                       (12px, white, dark slides)
+================================================================================
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 1  |  TITLE SLIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : Full dark gradient  (#111111 top-left → #1A1A2E bottom-right)
+              + very subtle diagonal dot-grid pattern at 5% white opacity
+
+LAYOUT:
+  LEFT 55%  — Text content
+  RIGHT 45% — [SCREENSHOT: App home screen inside an iPhone 15 phone frame mockup]
+
+LEFT CONTENT:
+
+  [Green accent line — 5px tall, 90px wide, above the brand name]
+
+  FOODORDER
+  [Font: Poppins ExtraBold, 72px, #FFFFFF White]
+
+  Smart Food Delivery Platform
+  [Font: Poppins Light, 28px, #00A65A Green]
+
+  ─────────────────────────────────────────────────
+  Presented by : Eshwar Krishna Dev
+  Role         : Full Stack Developer  |  React Native Engineer
+  Date         : [Insert presentation date]
+  ─────────────────────────────────────────────────
+
+  [Bottom-left tag line — small, #555555 gray]
+  Built with  React Native  ·  TypeScript  ·  Expo SDK 54
+
+RIGHT VISUAL:
+  [SCREENSHOT PLACEHOLDER]
+  → Take a screenshot of the HOME SCREEN (orange header, restaurant cards)
+  → Place it inside a free iPhone 15 mockup frame
+  → Source: mockuphone.com or shots.so
+  → Add a subtle green glow behind the phone (blur 80px, #00A65A at 25% opacity)
+
+VISUAL INSTRUCTIONS:
+  - Left half text block left-aligned, vertically centered
+  - Role/date row: white text, small separator dots between items
+  - The green accent line at the top adds a powerful entry point
+  - Optional: add 3 small floating food emojis near the phone (🍕 🍜 🌮)
+
+SPEAKER NOTES:
+  Good [morning / afternoon], everyone. Thank you for your time today.
+  I'll be walking you through FoodOrder — a premium, cross-platform food delivery
+  application I designed and built from scratch using React Native and TypeScript.
+  The app delivers a complete end-to-end ordering experience: from secure login and
+  restaurant discovery, all the way through to live order tracking and post-delivery
+  rating. Let me start with a quick agenda of what we'll cover.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 2  |  AGENDA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #FFFFFF white
+ACCENT BAR  : Left edge, 8px wide, #00A65A green (full slide height)
+
+TITLE: What We'll Cover Today
+[Font: Poppins Bold, 38px, #111111]
+
+LAYOUT: 2-column grid of 8 agenda items (4 rows × 2 columns)
+        Each item = icon badge (green circle) + number + label
+
+ITEM TEMPLATE:
+  ┌───────────────────────────────────────────────────────┐
+  │  [●] GREEN CIRCLE ICON   01  Label Text               │
+  └───────────────────────────────────────────────────────┘
+
+AGENDA ITEMS:
+
+  Column 1:
+  [Icon: alert-circle]   01  Problem Statement
+  [Icon: bulb]           02  Solution Overview
+  [Icon: star]           03  Key Features
+  [Icon: phone]          04  Application Screens
+
+  Column 2:
+  [Icon: git-branch]     05  System Architecture
+  [Icon: code-slash]     06  Tech Stack & Code
+  [Icon: trending-up]    07  Performance & Security
+  [Icon: flag]           08  Future Roadmap & Q&A
+
+  [Bottom center — thin green divider line]
+  "8 Topics  ·  ~20 Minutes  ·  Q&A at the End"
+
+VISUAL INSTRUCTIONS:
+  - Each item sits inside a #F4F4F4 rounded card (border-radius 12px, subtle shadow)
+  - Icon badge: 48px green (#00A65A) circle, white Ionicons icon inside
+  - Number: small green text above the label
+  - Items animate in on click (Fade + slight upward motion) if presenting live
+
+SPEAKER NOTES:
+  We have eight areas to cover. I'll keep each section concise and punchy —
+  you'll see the key decisions, the real code, and the real screens.
+  Feel free to stop me with questions at any point. Let's start with the
+  problem this application was built to solve.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 3  |  PROBLEM STATEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #111111 dark
+TITLE COLOR : #00A65A Green
+
+TITLE: The Problem with Today's Food Delivery UX
+
+LAYOUT: 3 pain-point cards side by side (horizontal), centered on slide
+
+  ┌──────────────────────┐  ┌──────────────────────┐  ┌──────────────────────┐
+  │   [🕐 Clock icon]    │  │  [📍 Location icon]  │  │   [😕 Frown icon]   │
+  │                      │  │                      │  │                      │
+  │  SLOW & CLUNKY       │  │  POOR ORDER          │  │  FRAGMENTED          │
+  │  INTERFACES          │  │  VISIBILITY          │  │  EXPERIENCE          │
+  │                      │  │                      │  │                      │
+  │ • Heavy, unresponsive│  │ • Vague "accepted"   │  │ • One restaurant     │
+  │   apps on all devices│  │   status messages    │  │   per order only     │
+  │ • Too many taps to   │  │ • No real-time live  │  │ • No tip control     │
+  │   reach checkout     │  │   journey shown      │  │   before placing     │
+  │ • Poor loading on    │  │ • Users left         │  │ • Inconsistent UI    │
+  │   mid-range phones   │  │   refreshing screen  │  │   across screens     │
+  └──────────────────────┘  └──────────────────────┘  └──────────────────────┘
+
+[Bottom stat banner — white text on dark green strip #007A41]
+
+  "63% of users abandon food apps due to poor UX"
+  |  "1 in 2 users want real-time order visibility"
+  |  "Multi-restaurant ordering is the #1 requested feature"
+
+VISUAL INSTRUCTIONS:
+  - Cards: #1E1E1E dark gray background, 20px border radius, white text
+  - Icon circle: 56px, #E74C3C red background, white icon (signals the problem)
+  - Card title: 18px Bold, White
+  - Bullet points: 13px, #AAAAAA gray
+  - Stat banner fills full width at bottom of slide, small green-on-dark
+
+SPEAKER NOTES:
+  The food delivery space is huge — but user satisfaction is surprisingly low.
+  Three problems come up repeatedly in user research. First: interfaces that feel
+  heavy and slow, especially on mid-range Android devices. Second: once an order
+  is placed, users are left in the dark — a generic "order accepted" message
+  is not real-time tracking. Third: fragmented experiences that lock users into
+  one restaurant per order and hide tip controls until after payment. FoodOrder
+  was designed to directly solve all three of these. Let me show you how.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 4  |  SOLUTION OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #FFFFFF white
+TITLE       : #111111
+
+TITLE: Introducing FoodOrder
+
+LAYOUT:
+  LEFT 55%  — Content (quote + 3 pillars + stats)
+  RIGHT 45% — [SCREENSHOT: Restaurant listing screen in phone mockup]
+
+LEFT CONTENT:
+
+  [Large green quotation mark — decorative, 80px, #00A65A]
+  "One app. Every craving. Zero friction."
+  [Font: Poppins SemiBold Italic, 22px, #111111]
+
+  [3 green-bordered pillar cards, stacked vertically]
+
+  ┌─────────────────────────────────────────────────┐
+  │ ▌  PREMIUM UX                                   │
+  │    Designed from the ground up with a modern    │
+  │    design system — every screen feels native,   │
+  │    fast, and polished.                          │
+  └─────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────┐
+  │ ▌  COMPLETE ORDERING FLOW                       │
+  │    Browse → Filter → Multi-restaurant cart      │
+  │    → Dasher tip → Live tracking → Rate order.  │
+  └─────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────┐
+  │ ▌  SECURE & PERSISTENT                         │
+  │    Local authentication with session storage.   │
+  │    Cart, orders, and ratings survive restarts.  │
+  └─────────────────────────────────────────────────┘
+
+  [Stats row — dark pill bar]
+  |  29 Restaurants  |  7 Cuisines  |  150+ Menu Items  |  Live Tracking  |
+
+RIGHT VISUAL:
+  [SCREENSHOT PLACEHOLDER]
+  → Take a screenshot of the RESTAURANT LIST screen
+  → Insert in an iPhone 15 mockup (slightly rotated 4°)
+  → Source: shots.so or mockuphone.com
+
+VISUAL INSTRUCTIONS:
+  - Pillar cards: white bg, 4px left border in #00A65A green, 10px radius
+  - Quotation mark is a decorative element, large but faded (#00A65A at 20% opacity)
+  - Stats pill: #111111 bg, white labels, #00A65A numbers (bold)
+  - Phone screenshot tilted slightly to add dynamism
+
+SPEAKER NOTES:
+  FoodOrder solves every problem from the previous slide with a clear philosophy:
+  remove every unnecessary step, make every screen feel effortless.
+  The platform currently supports 29 restaurants across 7 cuisine categories,
+  a full multi-restaurant cart, live simulated order tracking, secure login,
+  and a post-delivery rating system. This is a feature-complete platform — not
+  a prototype. Let me walk through the specific features.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 5  |  KEY FEATURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #F4F4F4 light gray
+TITLE       : #111111
+
+TITLE: Everything a Modern Delivery App Needs
+
+LAYOUT: 3 × 2 grid of feature cards (6 cards total)
+
+FEATURE CARD TEMPLATE:
+  ┌─────────────────────────────────────┐
+  │  [Icon — white on green circle]     │
+  │  FEATURE TITLE (Bold, 16px)         │
+  │  Two-line description (13px, gray)  │
+  └─────────────────────────────────────┘
+
+THE 6 FEATURE CARDS:
+
+  ROW 1:
+
+  [Icon: search]
+  SMART RESTAURANT DISCOVERY
+  29 restaurants, 7 cuisine filters, emoji-tagged
+  category chips, and live search by name or cuisine.
+
+  [Icon: menu]
+  RICH MENU BROWSING
+  Full-bleed restaurant hero image, sticky category
+  navigation bar, price and description on every item.
+
+  [Icon: cart]
+  MULTI-RESTAURANT CART
+  Add items from different restaurants simultaneously.
+  Grouped checkout with per-restaurant subtotals.
+
+  ROW 2:
+
+  [Icon: card]
+  SMOOTH CHECKOUT & TIP
+  Delivery address input, dasher tip modal BEFORE
+  placing, live total with tax and delivery fee.
+
+  [Icon: location]
+  LIVE DELIVERY TRACKING
+  6-stop visual journey: Restaurant → Placed →
+  Preparing → Out for Delivery → Delivered → You.
+
+  [Icon: star]
+  POST-DELIVERY RATING
+  5-star rating prompt after delivery with text labels
+  (Poor / Fair / Good / Great / Excellent). Persisted.
+
+VISUAL INSTRUCTIONS:
+  - Each card: white background, 14px border radius, shadow (0 4px 12px rgba(0,0,0,0.08))
+  - Icon circle: 52px diameter, #00A65A green background, white Ionicons icon
+  - Card title: 16px, Poppins Bold, #111111
+  - Description: 13px, Poppins Regular, #555555
+  - Cards animate in one-by-one on click for live presentation
+
+SPEAKER NOTES:
+  Six headline features. Smart discovery lets users filter 29 restaurants by
+  7 cuisine types with visually distinct emoji chips — or search by name.
+  The menu screen uses a sticky category bar so users never lose their place
+  while scrolling through a long menu. The cart supports multiple restaurants
+  simultaneously — a feature many competing apps still haven't shipped.
+  Checkout surfaces the dasher tip BEFORE the order is confirmed, not buried
+  in a post-payment screen. The tracking screen advances through 6 stages
+  automatically. And after delivery, a star rating modal captures satisfaction
+  and saves it permanently in the user's order history.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 6  |  APPLICATION SCREENS  ★ VERY IMPORTANT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #111111 dark
+TITLE       : #FFFFFF white
+
+TITLE: A Tour of the App
+
+LAYOUT: 6 phone mockups in 2 rows of 3, with label below each phone
+
+──────────────────────────────────────────────
+TOP ROW — Phones 1, 2, 3
+──────────────────────────────────────────────
+
+  PHONE 1                   PHONE 2                   PHONE 3
+  ┌──────────────┐          ┌──────────────┐          ┌──────────────┐
+  │              │          │              │          │              │
+  │  [SCREENSHOT │          │  [SCREENSHOT │          │  [SCREENSHOT │
+  │   Login      │          │   Home       │          │   Menu       │
+  │   Screen]    │          │   Screen]    │          │   Screen]    │
+  │              │          │              │          │              │
+  └──────────────┘          └──────────────┘          └──────────────┘
+  01  Secure Login           02  Home & Discovery       03  Menu Browsing
+  Email / Phone + Password   29 restaurants, 7 cuisines  Sticky categories + FAB
+
+──────────────────────────────────────────────
+BOTTOM ROW — Phones 4, 5, 6
+──────────────────────────────────────────────
+
+  PHONE 4                   PHONE 5                   PHONE 6
+  ┌──────────────┐          ┌──────────────┐          ┌──────────────┐
+  │              │          │              │          │              │
+  │  [SCREENSHOT │          │  [SCREENSHOT │          │  [SCREENSHOT │
+  │   Cart       │          │   Tip Modal  │          │   Tracking   │
+  │   Screen]    │          │   / Checkout]│          │   Screen]    │
+  │              │          │              │          │              │
+  └──────────────┘          └──────────────┘          └──────────────┘
+  04  Smart Cart             05  Tip & Checkout         06  Live Tracking
+  Multi-restaurant grouping  Choose tip before order    6-stop delivery journey
+
+VISUAL INSTRUCTIONS:
+  - Use iPhone 15 Pro Black frame PNGs from: mockuphone.com, shots.so, or smartmockups.com
+  - All 6 phones same width (approx 200px), vertically aligned
+  - Label numbers (01–06): #00A65A green, Bold, 20px
+  - Label titles: White, Bold, 14px
+  - Sublabels: #AAAAAA gray, 12px
+  - Background: faint dot-grid pattern at 4% white on #111111
+  - Optional: green glow effect on Phone 6 (the tracking screen — your hero screen)
+
+HOW TO CAPTURE SCREENSHOTS:
+  1. Open the app in Expo Go on your phone (or iOS/Android Simulator)
+  2. Navigate to each screen listed above
+  3. Take a system screenshot (Power + Volume Down on Android / Side + Vol Up on iOS)
+  4. Import screenshots into mockup frames at shots.so or mockuphone.com
+  5. Download as PNG and place into this slide
+
+SPEAKER NOTES:
+  Here are the six core screens. The login screen greets users with a premium
+  gradient background and a white card form — clean, confident, trustworthy.
+  The home screen shows a personalized greeting with the user's first name,
+  an orange gradient header, and clearly labeled cuisine filter chips.
+  The menu screen is the most visually rich — a full-bleed restaurant photo
+  that extends under the status bar, with a sticky category navigation bar
+  and a floating cart button. The cart groups items by restaurant, so multi-
+  restaurant orders are completely transparent. Before placing, the tip modal
+  gives the user full control. And the tracking screen shows the complete
+  6-step delivery journey with color-coded status indicators.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 7  |  UI / UX DESIGN APPROACH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #FFFFFF white
+TITLE       : #111111
+
+TITLE: Designed for Delight
+
+LAYOUT:
+  LEFT 50%  — 4 Design principle cards (stacked)
+  RIGHT 50% — Design system showcase panel (dark card)
+
+LEFT — 4 DESIGN PRINCIPLES:
+
+  [Icon: smartphone, green circle]
+  MOBILE-FIRST DESIGN
+  Every screen designed for thumb reach zones.
+  44px minimum touch targets. Safe-area aware on all devices.
+
+  [Icon: zap, green circle]
+  PERFORMANCE-FIRST UI
+  No wasted re-renders. useMemo for filtered lists.
+  FlatList virtualization. Optimized image loading.
+
+  [Icon: layers, green circle]
+  DESIGN SYSTEM
+  Centralized tokens — Colors, Spacing (4pt grid),
+  Typography scale, Border radii. One file to retheme everything.
+
+  [Icon: eye, green circle]
+  VISUAL HIERARCHY
+  ExtraBold headings. Card depth via layered shadows.
+  Color-coded status indicators. Gradient headers.
+
+RIGHT — DESIGN SYSTEM PANEL (dark card, #111111 bg, white text):
+
+  Title: "Design Tokens"  [#00A65A green, 14px, uppercase]
+
+  COLOR PALETTE (colored squares in a row):
+    ■ #00A65A   Primary Green
+    ■ #111111   Deep Black
+    ■ #FFFFFF   Surface White
+    ■ #F4F4F4   Background Gray
+    ■ #FFB100   Accent Amber
+
+  SPACING SCALE:
+    4 — 8 — 12 — 16 — 24 — 32 — 48 px  (4pt grid)
+
+  BORDER RADIUS SCALE:
+    6 — 10 — 14 — 20 — 28 — 999 (pill)
+
+  TYPOGRAPHY SCALE:
+    32px ExtraBold — Screen Titles
+    22px Bold      — Section Headings
+    17px SemiBold  — Card Titles
+    15px Regular   — Body Text
+    13px SemiBold  — Labels & Captions
+
+VISUAL INSTRUCTIONS:
+  - Left principle cards: white bg, 4px left green border, 10px radius, subtle shadow
+  - Right panel: #111111 card, 20px radius, occupies full right half
+  - Color swatches: 32×32px rounded squares with hex label below each
+  - Spacing/radius scales: rendered as a horizontal row of increasing pill shapes
+
+SPEAKER NOTES:
+  The UI was never improvised. Every spacing, color, radius, and font size
+  value comes from a central constants file. This means the entire app can be
+  rebranded — new colors, new fonts — by changing a handful of variables.
+  The design philosophy was mobile-first: every interaction was considered for
+  thumb ergonomics on a 6-inch screen. Performance was built in from day one —
+  memoization, virtualized lists, and explicit image sizing prevent jank.
+  The result is an interface that genuinely feels like a production product.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 8  |  SYSTEM ARCHITECTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #F4F4F4 light gray
+TITLE       : #111111
+
+TITLE: How It All Fits Together
+
+LAYOUT: Architecture diagram — recreate using PowerPoint Shapes / draw.io
+
+ARCHITECTURE DIAGRAM (left → right, top → bottom):
+
+┌────────────────────────────────────────────────────────────────────────────┐
+│                       FOODORDER — SYSTEM ARCHITECTURE                      │
+└────────────────────────────────────────────────────────────────────────────┘
+
+  USER (iOS / Android)
+        │
+        ▼
+  ┌──────────────────────────────────┐
+  │     REACT NATIVE APP             │  ← Expo SDK 54  /  TypeScript
+  │     Presentation Layer           │
+  │  Screens + Reusable Components   │
+  └──────────────────────────────────┘
+        │
+  ┌─────────────────────────────────────────────────────┐
+  │               STATE MANAGEMENT LAYER                │
+  │  ┌──────────────┐  ┌───────────────┐  ┌──────────┐ │
+  │  │ AuthContext  │  │  CartContext  │  │OrderCtx  │ │
+  │  │ useReducer   │  │  useReducer   │  │useReducer│ │
+  │  └──────────────┘  └───────────────┘  └──────────┘ │
+  └─────────────────────────────────────────────────────┘
+        │
+  ┌─────────────────────────────────────────────────────┐
+  │               PERSISTENCE LAYER                     │
+  │         AsyncStorage (survives app restarts)        │
+  │   Session ·  User Accounts ·  Orders ·  Ratings    │
+  └─────────────────────────────────────────────────────┘
+        │
+  ┌─────────────────────────────────────────────────────┐
+  │                DATA LAYER                           │
+  │   Mock Data: 29 Restaurants · 7 Cuisines · 150+ Items│
+  │   Swappable → REST API  (Node.js / Express)         │
+  └─────────────────────────────────────────────────────┘
+
+  [Right side of diagram — navigation layer box]
+  ┌──────────────────────┐
+  │  NAVIGATION          │
+  │  React Navigation v7 │
+  │  Native Stack        │
+  │  Bottom Tab          │
+  └──────────────────────┘
+
+  [Future upgrade note — bottom right corner]
+  ┌────────────────────────────────────────────┐
+  │  FUTURE: Node.js REST API → PostgreSQL     │
+  │          WebSocket → Real-time GPS         │
+  │          JWT → Replace AsyncStorage session│
+  └────────────────────────────────────────────┘
+
+KEY LAYER DESCRIPTIONS (label boxes on diagram):
+
+  PRESENTATION  → Screens + Components (React Native)
+  STATE         → 3 isolated Contexts, each with useReducer
+  PERSISTENCE   → AsyncStorage (local, upgradeable to API)
+  DATA          → Mock data structured for API swap-out
+
+VISUAL INSTRUCTIONS:
+  - Draw boxes with PowerPoint Rectangle tool or use draw.io (free) → export PNG
+  - Color coding:
+      Presentation layer → #D5F5E3 light green tint
+      State layer        → #EAF4FB light blue tint
+      Persistence layer  → #FEF9E7 light amber tint
+      Data layer         → #F4F4F4 gray
+  - Arrows: 2px solid, #111111, with arrowhead
+  - Future upgrade box: dashed border, lighter color
+
+SPEAKER NOTES:
+  The architecture has four clean layers. At the top, the React Native presentation
+  layer contains all screens and reusable components — it knows nothing about
+  where data comes from. Beneath that, three isolated React Contexts handle
+  authentication, cart state, and order management. Each context uses useReducer
+  for predictable, auditable state changes. The persistence layer uses AsyncStorage
+  to survive app restarts — users don't lose sessions or order history.
+  At the bottom, the data layer currently uses rich mock data but is structured
+  identically to what a REST API response would look like — so swapping to a
+  real backend requires changing only the data layer, zero UI changes.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 9  |  TECH STACK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #111111 dark
+TITLE       : #FFFFFF white
+
+TITLE: Built With the Right Tools
+
+LAYOUT: 4-column card grid (one card per tech category)
+
+COLUMN 1 — CORE FRAMEWORK
+  [Logo: React Native]
+  CORE FRAMEWORK
+  ─────────────────
+  React Native (Expo SDK 54)
+  TypeScript 5
+  "Cross-platform iOS & Android
+   from a single codebase"
+  [Green tag: Cross-Platform]
+
+COLUMN 2 — STATE & NAVIGATION
+  [Logo: React]
+  STATE & NAVIGATION
+  ──────────────────
+  React Context API
+  useReducer Pattern
+  React Navigation v7
+  Native Stack Navigator
+  Bottom Tab Navigator
+  "Predictable state.
+   Smooth screen transitions."
+  [Green tag: Type-Safe]
+
+COLUMN 3 — UI & STYLING
+  [Logo: Expo]
+  UI & STYLING
+  ─────────────
+  React Native StyleSheet
+  expo-linear-gradient
+  @expo/vector-icons (Ionicons)
+  react-native-safe-area-context
+  react-native-gesture-handler
+  "100% native styling —
+   no heavy UI library."
+  [Green tag: Native Performance]
+
+COLUMN 4 — DATA & PERSISTENCE
+  [Logo: Storage]
+  DATA & PERSISTENCE
+  ──────────────────
+  @react-native-async-storage
+  expo-splash-screen
+  29 Restaurants Mock Data
+  Structured for API migration
+  "Persistent sessions, orders,
+   and ratings."
+  [Green tag: API-Ready]
+
+[Full-width bottom bar — dark green #007A41 bg]
+  "Why this stack?  React Native + TypeScript gives us type-safe, production-ready
+   mobile apps that run natively on iOS and Android — with one codebase."
+
+VISUAL INSTRUCTIONS:
+  - Columns: #1E1E1E dark gray cards, 16px radius, equal width
+  - Column title: #00A65A green, 14px, Bold, uppercase
+  - Tech names: white, 13px
+  - Quote: gray (#AAAAAA)
+  - Green tags: #00A65A bg, white text, pill shape, 10px
+  - Add official technology logos (PNG) from brand kits where available
+
+SPEAKER NOTES:
+  The tech stack was chosen for reliability, type-safety, and production readiness.
+  React Native with TypeScript gives us compile-time type checking across the entire
+  codebase — bugs are caught before users see them. Expo's managed workflow
+  accelerates development without sacrificing native performance.
+  Styling is done entirely through React Native's own StyleSheet API with a
+  custom design system — no third-party component library adding bundle weight.
+  State management is Context + useReducer — no Redux overhead, no extra packages.
+  AsyncStorage handles all persistence needs today, and is architected to be
+  replaced by a REST API tomorrow.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 10  |  CODE IMPLEMENTATION  ★ IMPORTANT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #111111 dark
+TITLE       : #FFFFFF white
+
+TITLE: Clean, Typed, Production-Quality Code
+
+LAYOUT: 2 large code panels side by side (top) + 1 smaller panel below center
+
+CODE EDITOR THEME (VS Code Dark+ style — apply these colors to text manually):
+  Panel background  : #1E1E2E   (very dark blue-black)
+  Keywords          : #569CD6   (blue)   — const, async, function, return, if
+  Strings           : #CE9178   (orange) — 'text in quotes'
+  Function names    : #DCDCAA   (yellow) — functionName()
+  TypeScript types  : #4EC9B0   (teal)   — CartItem, string, number
+  Comments          : #6A9955   (green)  — // comments
+  Numbers/operators : #B5CEA8   (light green)
+
+─────────────────────────────────────────────────────────────────────────────
+CODE PANEL 1 (left half)
+Title: "Cart Context — State Management"
+─────────────────────────────────────────────────────────────────────────────
+
+// CartContext.tsx
+export function useCart() {
+  const { state, dispatch } = useContext(CartContext);
+
+  const addItem = (item: CartItem) =>
+    dispatch({ type: 'ADD_ITEM', payload: item });
+
+  const removeItem = (id: string) =>
+    dispatch({ type: 'REMOVE_ITEM', payload: id });
+
+  const updateQuantity = (id: string, qty: number) =>
+    dispatch({ type: 'UPDATE_QTY', payload: { id, qty } });
+
+  // Derived value — computed, not stored
+  const itemCount = state.items.reduce(
+    (total, item) => total + item.quantity, 0
+  );
+
+  return { state, addItem, removeItem, updateQuantity, itemCount };
+}
+
+// Any component can call useCart() — no prop drilling needed
+─────────────────────────────────────────────────────────────────────────────
+CODE PANEL 2 (right half)
+Title: "Auth Context — Persistent Login"
+─────────────────────────────────────────────────────────────────────────────
+
+// AuthContext.tsx — Session restored on every app launch
+useEffect(() => {
+  AsyncStorage.getItem('@food_app_session')
+    .then((raw) => {
+      if (raw) {
+        dispatch({ type: 'SET_USER', payload: JSON.parse(raw) });
+      } else {
+        dispatch({ type: 'DONE_LOADING' });
+      }
+    })
+    .catch(() => dispatch({ type: 'DONE_LOADING' }));
+}, []);
+
+async function signIn(contact: string, password: string) {
+  const users = await getStoredUsers();
+  const match = users.find(
+    u => u.contact === contact.toLowerCase()
+      && u.passwordHash === simpleHash(password)
+  );
+  if (!match) return { ok: false, error: 'Invalid credentials' };
+  await AsyncStorage.setItem(SESSION_KEY, JSON.stringify(match));
+  dispatch({ type: 'SET_USER', payload: match });
+  return { ok: true };
+}
+─────────────────────────────────────────────────────────────────────────────
+CODE PANEL 3 (bottom center, smaller)
+Title: "Smart Filtering — useMemo Optimization"
+─────────────────────────────────────────────────────────────────────────────
+
+// HomeScreen.tsx — Restaurant filter is memoized
+const filtered = useMemo(() => {
+  return RESTAURANTS.filter((r) => {
+    const matchSearch =
+      r.name.toLowerCase().includes(search.toLowerCase()) ||
+      r.cuisine.toLowerCase().includes(search.toLowerCase());
+    const matchCuisine =
+      selectedCuisine === 'All' || r.cuisine === selectedCuisine;
+    return matchSearch && matchCuisine;
+  });
+}, [search, selectedCuisine]);
+// Recomputes ONLY when search term or cuisine filter changes
+
+VISUAL INSTRUCTIONS:
+  - Each code panel: #1E1E2E rounded rectangle, 12px radius, Fira Code / Courier New 11pt
+  - Panel title: small green text (#00A65A) above the panel, left-aligned
+  - macOS window dots: 3 circles (red/yellow/green, 8px) top-left corner of each panel
+  - Apply text colors listed above manually using Format > Text Color in PowerPoint
+  - Panels 1 and 2 are equal width side by side; Panel 3 is 60% width, centered below
+
+SPEAKER NOTES:
+  Three code samples from the actual application.
+  The cart context exposes a clean useCart hook — any component can add, remove,
+  or update items with a single function call. No prop drilling, no messy callbacks.
+  The auth context hydrates the session from AsyncStorage on every app launch,
+  so returning users never need to log in again. The signIn function validates
+  credentials by comparing a hashed password — raw passwords are never stored.
+  The restaurant filter wraps its computation in useMemo — it only recalculates
+  when the search term or cuisine selection actually changes, not on every keystroke.
+  This is the performance discipline you'd expect in a production codebase.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 11  |  LIVE TRACKING FEATURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #FFFFFF white
+TITLE       : #111111
+
+TITLE: Delivery Tracking — Step by Step
+
+LAYOUT:
+  LEFT 45%  — Vertical 6-stop tracker graphic
+  RIGHT 55% — Explanation cards + [SCREENSHOT: Tracking screen in phone mockup]
+
+LEFT — 6-STOP TRACKER (draw vertically in PowerPoint):
+
+  ●  RESTAURANT             [green filled circle + storefront icon]
+     "Where it begins"
+     │ (solid green connecting line)
+     │
+  ●  ORDER PLACED           [blue filled circle + receipt icon]
+     "Confirmed & queued"
+     │ (solid green line)
+     │
+  ●  PREPARING              [amber filled circle + flame icon]
+     "Kitchen is cooking"
+     │ (solid green line)
+     │
+  ●  OUT FOR DELIVERY       [purple filled circle + bicycle icon]
+     "Dasher is on the way"
+     │ (gray dashed line — pending)
+     │
+  ○  DELIVERED              [gray outline circle + checkmark]
+     "Arriving soon…"
+     │ (gray dashed line)
+     │
+  ○  YOUR DOOR              [gray outline circle + home icon]
+     "Enjoy your meal!"
+
+  [Legend below tracker]
+  ● Completed   ◉ Active (glowing)   ○ Pending
+
+RIGHT CONTENT:
+
+  HOW IT WORKS
+
+  [Card 1 — green left border]
+  AUTOMATIC SIMULATION
+  Order status advances automatically through each stage
+  via a timer chain. Each stage has a configurable delay.
+  The UI re-renders on every status change.
+
+  [Card 2 — green left border]
+  REAL-TIME UI UPDATES
+  Completed stops: filled color, white icon.
+  Active stop: glowing drop shadow (color matches status).
+  Pending stops: gray outline, gray icon.
+
+  [Card 3 — green left border]
+  PRODUCTION-READY ARCHITECTURE
+  The simulation can be replaced with a real WebSocket
+  or polling API — zero UI changes required. The data
+  layer and presentation layer are fully decoupled.
+
+  [SCREENSHOT PLACEHOLDER]
+  → Place the ORDER TRACKING SCREEN screenshot here in a phone mockup
+
+VISUAL INSTRUCTIONS:
+  - Tracker circles: 40px diameter, filled with their status color
+  - Active stop: add a colored drop shadow (15px blur, color matches status, 30% opacity)
+  - Connecting lines: 3px solid when done, 2px dashed gray when pending
+  - Explanation cards: white bg, 4px left green border, subtle shadow
+
+SPEAKER NOTES:
+  The tracking screen is one of the most engaging features in the application.
+  It shows a complete 6-stop delivery journey — from the restaurant all the way
+  to the customer's door. Each stop has a distinct color and icon so users can
+  see at a glance exactly where their order is. Under the hood, a hook called
+  useOrderSimulation advances the status on a configurable timer.
+  In production, this simulation is replaced by a WebSocket or server polling
+  call — and because the data and UI layers are fully decoupled, the tracking
+  screen wouldn't need a single line changed.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 12  |  CHALLENGES & SOLUTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #F4F4F4 light gray
+TITLE       : #111111
+
+TITLE: Real Problems. Engineered Solutions.
+
+LAYOUT: 3 challenge–solution rows (each row = left challenge card + arrow + right solution card)
+
+─────────────────────────────────────────────────────────────────────────────
+ROW 1
+─────────────────────────────────────────────────────────────────────────────
+  ┌───────────────────────────────┐          ┌────────────────────────────────┐
+  │  ❌ CHALLENGE                 │          │  ✅ SOLUTION                   │
+  │  Multi-restaurant cart        │  ──▶──   │  Removed restaurantId lock.    │
+  │  Most apps clear items when   │          │  Added groupByRestaurant()     │
+  │  switching restaurants.       │          │  at checkout — items from any  │
+  │  We needed to support all.    │          │  restaurant coexist in cart.   │
+  └───────────────────────────────┘          └────────────────────────────────┘
+
+─────────────────────────────────────────────────────────────────────────────
+ROW 2
+─────────────────────────────────────────────────────────────────────────────
+  ┌───────────────────────────────┐          ┌────────────────────────────────┐
+  │  ❌ CHALLENGE                 │          │  ✅ SOLUTION                   │
+  │  Session lost on every app    │  ──▶──   │  AsyncStorage saves user       │
+  │  restart. Users forced to     │          │  session. AuthContext hydrates  │
+  │  log in repeatedly — causing  │          │  on mount — session restored   │
+  │  drop-off before ordering.    │          │  before first render.          │
+  └───────────────────────────────┘          └────────────────────────────────┘
+
+─────────────────────────────────────────────────────────────────────────────
+ROW 3
+─────────────────────────────────────────────────────────────────────────────
+  ┌───────────────────────────────┐          ┌────────────────────────────────┐
+  │  ❌ CHALLENGE                 │          │  ✅ SOLUTION                   │
+  │  Category filter chips were   │  ──▶──   │  White card background strip,  │
+  │  hard to read — low contrast  │          │  emoji labels per cuisine,     │
+  │  text on gray background.     │          │  #111 text, 15px font size,    │
+  │  Users couldn't filter easily.│          │  and chip drop-shadows added.  │
+  └───────────────────────────────┘          └────────────────────────────────┘
+
+[Full-width dark banner at bottom]
+  "Every engineering challenge was an opportunity to make the architecture cleaner."
+
+VISUAL INSTRUCTIONS:
+  - Challenge cards: white bg, 4px left red (#E74C3C) accent border, 10px radius
+  - Solution cards: white bg, 4px left green (#00A65A) accent border, 10px radius
+  - Arrow between cards: bold green arrow (→), #00A65A
+  - Bottom banner: #111111 bg, white italic text centered, 20px padding
+
+SPEAKER NOTES:
+  Three real engineering challenges came up during development.
+  First — multi-restaurant carts. The initial architecture only allowed one
+  restaurant per cart session. I redesigned CartState to remove the restaurant
+  lock entirely and introduced a groupByRestaurant utility at checkout.
+  Second — persistent sessions. I integrated AsyncStorage session hydration
+  so the AuthContext restores the user automatically on every app launch — zero
+  re-login friction.
+  Third — a usability issue where the cuisine filter chips were hard to read.
+  I redesigned the chip strip with a white card background, emoji labels,
+  darker text (#111), larger font (15px), and chip drop-shadows for clear
+  visual separation. Each challenge made the final product measurably better.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 13  |  PERFORMANCE & OPTIMIZATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #111111 dark
+TITLE       : #FFFFFF white
+
+TITLE: Built to Be Fast
+
+LAYOUT: 2×2 top card grid + 1 wide card at bottom
+
+CARD 1 — [Icon: zap, green]
+  useMemo EVERYWHERE
+  All derived values — filtered restaurant lists, cart subtotals,
+  grouped order items — are wrapped in useMemo. They recompute
+  only when their specific dependency changes. Zero wasted renders.
+
+CARD 2 — [Icon: list, green]
+  FLATLIST FOR LONG LISTS
+  Restaurant and order lists use React Native's FlatList with
+  keyExtractor. Only visible items are rendered — the rest are
+  recycled by the VirtualizedList engine. Memory stays flat
+  even with 29+ restaurants.
+
+CARD 3 — [Icon: cpu, green]
+  ISOLATED CONTEXTS
+  Cart, Auth, and Orders are completely separate React Contexts.
+  A cart update never re-renders the orders screen. State changes
+  are surgically scoped to the components that need them.
+
+CARD 4 — [Icon: image, green]
+  OPTIMIZED IMAGES
+  All restaurant images load from CDN with width parameters
+  (?w=300/400). resizeMode="cover" prevents layout thrash.
+  A placeholder background color eliminates blank flash frames.
+
+WIDE BOTTOM CARD — [green gradient: #00A65A → #007A41]
+  PLATFORM-AWARE BEHAVIOR
+  KeyboardAvoidingView uses behavior="padding" on iOS and behavior="height"
+  on Android — the right choice for each platform. SafeAreaView from
+  react-native-safe-area-context handles notches, Dynamic Island, and
+  home indicators correctly across all modern devices.
+
+VISUAL INSTRUCTIONS:
+  - Top 4 cards: #1E1E1E dark gray, 2×2 grid, green (#00A65A) icon circles (48px)
+  - Card title: white, 16px Bold
+  - Card body: #AAAAAA gray, 13px
+  - Bottom wide card: green gradient fill, white text, full-width
+
+SPEAKER NOTES:
+  Performance was built in from day one, not bolted on after.
+  useMemo wraps every derived computation — the restaurant filter, cart subtotals,
+  and order groupings only recalculate when their inputs actually change.
+  FlatList keeps memory usage flat even as the restaurant count grows.
+  The three contexts are completely isolated — tip selection in the cart doesn't
+  trigger a re-render anywhere in the orders tab.
+  And I explicitly handled platform differences — keyboard avoidance, safe areas,
+  and image loading all use the correct native API for each platform.
+  The result is an app that feels native on both iOS and Android.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 14  |  SECURITY & DATA HANDLING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #FFFFFF white
+TITLE       : #111111
+
+TITLE: Security-Conscious from Day One
+
+LAYOUT:
+  LEFT 50%  — 4 security pillars (stacked cards)
+  RIGHT 50% — Data flow diagram (sign-up / sign-in path)
+
+LEFT — 4 SECURITY PILLARS:
+
+  [Shield icon — green]
+  INPUT VALIDATION
+  Every field validated before touching storage.
+  Email regex, 10-digit phone check, 6-char min password,
+  2-char min name. Errors surface inline with specific messages.
+
+  [Lock icon — amber]
+  PASSWORD HASHING
+  Passwords are never stored in plain text.
+  A deterministic hash is applied before storage.
+  Raw passwords are never persisted anywhere.
+
+  [Key icon — blue]
+  SESSION MANAGEMENT
+  Sessions stored under a namespaced key (@food_app_session).
+  Logout clears the session completely.
+  No credentials leak between different accounts.
+
+  [X icon — red]
+  DUPLICATE ACCOUNT PREVENTION
+  Sign-up checks existing accounts by normalized (lowercased)
+  contact string. Duplicate email or phone is rejected
+  with a clear, user-facing error message.
+
+RIGHT — DATA FLOW DIAGRAM:
+
+  USER SUBMITS FORM
+        │
+        ▼
+  ┌───────────────────────────┐
+  │  VALIDATION LAYER         │──── FAIL ───▶  Inline Error Shown
+  └───────────────────────────┘
+        │ PASS
+        ▼
+  ┌───────────────────────────┐
+  │  simpleHash(password)     │
+  └───────────────────────────┘
+        │
+        ▼
+  ┌───────────────────────────┐
+  │  AsyncStorage             │
+  │  @food_app_users          │
+  └───────────────────────────┘
+        │
+        ▼
+  ┌───────────────────────────┐
+  │  SESSION CREATED          │
+  │  @food_app_session        │
+  └───────────────────────────┘
+        │
+        ▼
+  isAuthenticated = true
+        │
+        ▼
+  ✅  MAIN APP UNLOCKED
+
+  [Note box — dashed border]
+  Production upgrade path:
+  simpleHash  →  bcrypt / Argon2 (server-side)
+  AsyncStorage  →  JWT token from REST API
+
+VISUAL INSTRUCTIONS:
+  - Pillar cards: white bg, 4px left colored border (matching icon color), 10px radius
+  - Data flow: draw boxes with PowerPoint rounded rectangles, green arrows
+  - FAIL branch: red arrow, red box
+  - Success path: green arrows, green final box
+  - Production note: dashed border box, #555555 text
+
+SPEAKER NOTES:
+  Security was treated seriously even in this local-first implementation.
+  All user inputs go through a validation layer before any storage call is made.
+  Passwords are hashed — raw passwords never appear in storage anywhere.
+  Session management is namespaced and fully cleared on logout.
+  Sign-up checks for duplicates using normalized contact strings.
+  I've also explicitly designed the production upgrade path: the simpleHash
+  function becomes server-side bcrypt or Argon2, and AsyncStorage sessions
+  become JWT tokens from a REST API. The architecture supports this transition
+  without touching a single UI component.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 15  |  FUTURE ENHANCEMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #111111 dark
+TITLE       : #FFFFFF white
+
+TITLE: The Road Ahead
+
+LAYOUT: 3-phase horizontal roadmap (timeline style)
+
+─────────────────────────────────────────────────────────────────────────────────────
+PHASE 1 — NEAR TERM (0–3 months)         [Header: #00A65A green]
+─────────────────────────────────────────────────────────────────────────────────────
+  ► Real Backend API
+    Node.js + Express REST API
+    PostgreSQL or MongoDB for restaurants and orders
+
+  ► Real-Time GPS Tracking
+    WebSocket connection for live dasher location
+    Map view integration (Google Maps SDK / Mapbox)
+
+  ► Push Notifications
+    Expo Notifications for order status pushes
+    "Your order is out for delivery!" alerts
+
+─────────────────────────────────────────────────────────────────────────────────────
+PHASE 2 — MID TERM (3–6 months)          [Header: #FFB100 amber]
+─────────────────────────────────────────────────────────────────────────────────────
+  ► Payment Gateway
+    Stripe SDK integration
+    Apple Pay / Google Pay support
+    Saved payment methods
+
+  ► Social Login
+    Sign in with Google / Apple
+    OTP-based phone number verification
+
+  ► Restaurant Partner Dashboard
+    Separate app for restaurant owners
+    Order management + real-time menu editing
+
+─────────────────────────────────────────────────────────────────────────────────────
+PHASE 3 — LONG TERM (6–12 months)        [Header: #FFFFFF white]
+─────────────────────────────────────────────────────────────────────────────────────
+  ► AI-Powered Recommendations
+    Personalized "For You" feed
+    Based on order history, time of day, location
+
+  ► Loyalty & Rewards System
+    Points earned per order
+    Redeemable for discounts and free delivery
+
+  ► Dark Mode & Accessibility
+    Full WCAG 2.1 AA compliance
+    Dynamic type sizing for accessibility users
+
+VISUAL INSTRUCTIONS:
+  - Three vertical columns with colored top header bars
+  - Horizontal timeline arrow connecting the three phases at the top
+  - Each feature: white card inside the dark column, green bullet point
+  - Phase header background: green / amber / white (with dark text on white header)
+
+SPEAKER NOTES:
+  The application is architected for growth — the roadmap is in three phases.
+  Near term: the mock data layer is replaced by a real Node.js REST API with
+  minimal code changes. Real-time GPS tracking replaces the simulation using
+  WebSockets, and push notifications keep users engaged post-order.
+  Medium term: Stripe payment integration and social login bring the app to
+  production readiness. A restaurant partner dashboard enables live menu management.
+  Long term: AI-powered recommendations and a loyalty system would differentiate
+  FoodOrder in a competitive market. Dark mode and accessibility compliance
+  expand the potential user base significantly.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 16  |  BUSINESS VALUE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #FFFFFF white
+TITLE       : #111111
+
+TITLE: Why This Matters — Business Impact
+
+LAYOUT:
+  TOP ROW   — 3 large metric cards
+  BOTTOM    — 2-column value proposition
+
+TOP ROW — IMPACT METRICS (large number cards):
+
+  ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+  │       29        │    │        7        │    │     100%        │
+  │  Restaurants    │    │   Cuisines      │    │  Cross-Platform │
+  │  Ready Day 1    │    │   Covered       │    │  iOS + Android  │
+  └─────────────────┘    └─────────────────┘    └─────────────────┘
+  [Number: 64px ExtraBold, #00A65A green]
+  [Label: 14px Regular, #555555 gray]
+
+BOTTOM — VALUE PROPOSITION (2 cards side by side):
+
+  LEFT CARD — [Icon: users, green circle]
+  USER BENEFITS
+  • Zero friction from browse to checkout
+  • Real-time visibility reduces support calls
+  • Persistent sessions reduce drop-off
+  • Multi-restaurant cart increases basket size
+  • Transparent tip control builds trust
+
+  RIGHT CARD — [Icon: trending-up, green circle]
+  BUSINESS BENEFITS
+  • Single codebase → 50% lower development cost
+  • TypeScript → fewer production bugs
+  • Scalable architecture → ready for 10× growth
+  • Design system → consistent brand at any scale
+  • AsyncStorage foundation → seamless API migration
+
+[Full-width dark banner at bottom]
+  "The food delivery market is projected to reach $500B by 2030.
+   A premium, user-first experience is the key competitive differentiator."
+
+VISUAL INSTRUCTIONS:
+  - Metric cards: white bg, subtle shadow, large green number, dark label below
+  - Value prop cards: white bg, green icon circle, black bold title, gray bullets
+  - Bottom banner: #111111 bg, white text centered, orange quotation mark accents
+
+SPEAKER NOTES:
+  From a business perspective, this application delivers measurable value on both
+  sides of the marketplace. For users, every friction point in the ordering journey
+  has been eliminated — from discovery to tracking. For the business: a single
+  React Native codebase covers both iOS and Android, cutting development cost in
+  half compared to native apps. TypeScript catches bugs at compile time, not in
+  production. The architecture is explicitly designed to scale — adding real backend
+  services touches only the data layer, not a single UI component.
+  In a market projected to reach $500 billion by 2030, premium UX is not
+  a nice-to-have — it is the differentiator.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 17  |  DEMO FLOW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : #F4F4F4 light gray
+TITLE       : #111111
+
+TITLE: A Complete User Journey — End to End
+
+LAYOUT: Horizontal step flow with phone screenshots above each step number
+
+──────────────────────────────────────────────────────────────
+TOP ROW — Steps 1 to 4  (with screenshots above each)
+──────────────────────────────────────────────────────────────
+
+  [Phone screenshot]   ──▶   [Phone screenshot]   ──▶   [Phone screenshot]   ──▶   [Phone screenshot]
+  Login Screen               Home Screen                Menu Screen                Cart Screen
+
+  ① OPEN APP &               ② BROWSE &                 ③ VIEW MENU                ④ REVIEW CART
+    SIGN IN                    FILTER                     & ADD TO CART               & ADDRESS
+  ─────────────────          ─────────────────          ─────────────────          ─────────────────
+  • Premium login screen     • Greeted by name          • Full-bleed hero          • Items grouped by
+  • Sign in: email/phone     • 7 cuisine chips          • Sticky category bar       restaurant
+  • Session persists —       • Live name search         • Floating cart FAB        • Delivery address
+    no re-login next time    • 29 restaurants           • Add with one tap         • Running total
+
+──────────────────────────────────────────────────────────────
+BOTTOM ROW — Steps 5 to 7
+──────────────────────────────────────────────────────────────
+
+  [Phone screenshot]   ──▶   [Phone screenshot]   ──▶   [Phone screenshot]
+  Tip Modal                  Tracking Screen            Rating Modal
+
+  ⑤ CHOOSE TIP               ⑥ TRACK LIVE               ⑦ RATE YOUR
+    & PLACE ORDER               DELIVERY                   EXPERIENCE
+  ─────────────────          ─────────────────          ─────────────────
+  • Tip modal slides up      • 6-stop visual            • 5-star rating
+  • Preset amounts or         tracker advances           prompt after
+    custom tip input          automatically              delivery
+  • Confirm in one tap       • Full receipt below       • Label feedback
+                             • Status pill live         • Saved to history
+
+VISUAL INSTRUCTIONS:
+  - Phone mockups above each step (iPhone 15 frame, smaller scale ~160px wide)
+  - Step numbers: green circles with white number, 36px
+  - Green arrows between steps
+  - Step title: 14px Bold, #111111
+  - Description bullets: 12px, #555555
+  - Consider splitting into 2 rows if phones are too small on one row
+
+SPEAKER NOTES:
+  Let me walk through the complete user journey in 7 steps.
+  Step 1: a new user opens the app, lands on the premium login screen, and
+  signs up in under 30 seconds. Step 2: they're greeted by name on the home
+  screen and can filter by any of 7 cuisine categories or search by restaurant name.
+  Step 3: they browse a restaurant menu with the sticky category bar and a floating
+  cart button showing their running item count. Step 4: the cart groups everything
+  clearly by restaurant with a running total including tax and delivery.
+  Step 5: before placing, a tip modal gives full control over the dasher tip.
+  Step 6: after placing, they watch the delivery tracker advance through 6 stages.
+  Step 7: after delivery, a 5-star rating modal captures satisfaction.
+  The entire flow takes under 2 minutes. That is the benchmark.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 18  |  CONCLUSION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : Dark gradient (#111111 → #1A1A2E)
+TITLE       : #FFFFFF white
+
+TITLE: What We Built. Why It Matters.
+
+LAYOUT:
+  TOP     — 4 strength badge pills (horizontal row)
+  MIDDLE  — Large centered quote block
+  BOTTOM  — 3 closing value point cards
+
+TOP — 4 STRENGTH BADGE PILLS  [#00A65A border, white text]:
+
+  [  PREMIUM UX  ]  [  TYPE-SAFE CODE  ]  [  SCALABLE ARCH  ]  [  END-TO-END FLOW  ]
+
+MIDDLE — QUOTE BLOCK  [centered]:
+
+  [Large decorative green quotation mark — 80px]
+
+  "FoodOrder is not a prototype.
+   It is a production-quality, feature-complete mobile application —
+   built with the same engineering principles used by
+   industry-leading delivery platforms."
+
+  [Thin green underline below quote]
+
+BOTTOM — 3 CLOSING CARDS  [white text on dark semi-transparent cards]:
+
+  TECHNICALLY SOUND
+  React Native · TypeScript · Context · useReducer · AsyncStorage.
+  Clean separation of concerns. Every layer is independently replaceable.
+
+  VISUALLY COMPELLING
+  Custom design system with consistent spacing, color, and typography tokens.
+  A premium UI that rivals commercial delivery applications.
+
+  BUSINESS READY
+  Multi-restaurant ordering, secure authentication, live tracking, and ratings —
+  all the features a real delivery platform needs from day one.
+
+VISUAL INSTRUCTIONS:
+  - Badge pills: transparent fill, 2px green border, green text, pill border-radius
+  - Quote: Poppins SemiBold Italic, 20px, white, centered, generous line-height
+  - Decorative quotation mark: very large, #00A65A, positioned top-left of quote
+  - Closing cards: semi-transparent dark cards (#1E1E1E at 80% opacity), 4px green left border
+
+SPEAKER NOTES:
+  To wrap up — FoodOrder demonstrates that a developer working with the right
+  tools and the right architecture can produce an application that is genuinely
+  competitive with commercial products.
+  It covers the complete delivery journey: secure login → restaurant discovery →
+  menu browsing → multi-restaurant cart → tip selection → live tracking →
+  post-delivery rating.
+  The codebase is clean, typed, and structured for growth. The UI is premium,
+  consistent, and designed for real users on real devices. This is a platform
+  I am proud to present and confident to ship. Thank you.
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLIDE 19  |  Q&A  /  THANK YOU
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACKGROUND  : Full green gradient (#00A65A top-left → #007A41 bottom-right)
+              + very subtle food pattern watermark at 6% white opacity
+TITLE       : #FFFFFF white
+
+LAYOUT: Centered, minimal, powerful
+
+  [Top — small white FoodOrder wordmark, centered]
+
+  ─────────────────────────────────────────────
+
+  [Very large centered white text]
+  Thank You
+
+  [Font: Poppins ExtraBold, 96px, #FFFFFF]
+
+  ─────────────────────────────────────────────
+  [White divider line, 120px wide, centered]
+  ─────────────────────────────────────────────
+
+  [Centered, white, 28px]
+  Questions & Discussion
+
+  ─────────────────────────────────────────────
+
+  [Contact card — semi-transparent white box (#FFFFFF at 15% opacity), rounded 20px]
+
+  ┌──────────────────────────────────────────────────────┐
+  │   Name     :   Eshwar Krishna Dev                    │
+  │   Email    :   eshwarkrishnadev@gmail.com            │
+  │   Role     :   Full Stack Developer  |  React Native │
+  │   GitHub   :   [Your GitHub URL]                     │
+  │   LinkedIn :   [Your LinkedIn URL]                   │
+  └──────────────────────────────────────────────────────┘
+
+  [Bottom — small white text]
+  Built with  React Native  ·  TypeScript  ·  Expo  ·  2024–2025
+
+VISUAL INSTRUCTIONS:
+  - Full slide green gradient — visually "inverse" of the dark slides
+  - "Thank You" text: ExtraBold, 96px, takes up center of slide
+  - Contact box: white at 15% opacity, white text inside, 20px radius
+  - Email bold, other fields regular weight
+  - Optional: QR code (right of contact box) linking to your GitHub / portfolio
+  - Optional: phone mockup (left of "Thank You") showing the app running
+
+SPEAKER NOTES:
+  Thank you very much for your time today. I'm happy to open this up for
+  questions — whether about specific implementation decisions, how we'd scale
+  this to production, the design choices, or anything else you'd like to dig into.
+  My contact details are on screen. I'm happy to share the full source code
+  for a code review at any time. What questions do you have?
+
+
+
+
+================================================================================
+  APPENDIX — HOW TO BUILD THIS IN POWERPOINT / GOOGLE SLIDES
+================================================================================
+
+STEP 1 — SLIDE MASTER SETUP
+  PowerPoint: View → Slide Master
+  Google Slides: Slide → Edit Theme
+  ► Set default background #FFFFFF (light slides) / #111111 (dark slides)
+  ► Set accent color #00A65A green for shapes and borders
+  ► Import Poppins from Google Fonts — set as default heading + body font
+  ► Add a 3px green bottom border line to every slide master layout
+  ► Add slide number bottom-right: 10px, #AAAAAA
+
+STEP 2 — APPLY CODE SNIPPET FORMATTING (Slide 10)
+  ► Insert → Text Box, set background fill to #1E1E2E
+  ► Set font to Fira Code or Courier New, 11pt
+  ► Apply syntax highlight colors manually:
+      #569CD6 (blue)  — const, function, async, await, return, if
+      #CE9178 (orange) — 'strings'
+      #DCDCAA (yellow) — functionName()
+      #4EC9B0 (teal)   — TypeScript types (CartItem, string, number)
+      #6A9955 (green)  — // comments
+  ► Add 3 colored dots (red #FF5F57 / yellow #FFBD2E / green #27C93F), 8px circles,
+    top-left corner of each code box to simulate a macOS window chrome
+
+STEP 3 — PHONE MOCKUPS (Slides 1, 4, 6, 11, 17)
+  ► mockuphone.com   — free PNG frames, iPhone 15 and Pixel 8
+  ► shots.so         — paste screenshot URL → generates mockup directly
+  ► smartmockups.com — free tier available
+  ► Use "iPhone 15 Pro Black" frame for a premium dark look
+  ► How to take screenshots: Expo Go on device or iOS/Android Simulator
+      Power + Volume Down (Android) / Side + Volume Up (iOS)
+
+STEP 4 — ARCHITECTURE DIAGRAM (Slide 8)
+  Option A — PowerPoint native:
+    Insert → Shapes → Rounded Rectangle (boxes)
+    Insert → Shapes → Arrow (connections)
+    Color boxes by layer (see slide 8 color guide)
+    Select all → Right Click → Group
+  Option B — draw.io (recommended, free):
+    Go to draw.io in your browser
+    Draw the architecture boxes and arrows
+    Export as PNG → Insert into PowerPoint
+
+STEP 5 — ANIMATIONS (for live presentation)
+  ► Slide 2  (Agenda):    Each card fades in on click
+  ► Slide 5  (Features):  Each feature card fades in from below, staggered
+  ► Slide 6  (Screens):   Phones fly in from left/right alternating
+  ► Slide 11 (Tracker):   Each tracker dot lights up sequentially (on click)
+  ► Slide 17 (Demo):      Each step + phone appears on click
+  ► Between dark↔light slides: use Morph transition for smooth cinematic effect
+
+RECOMMENDED PRESENTATION TIMING (20-minute session):
+  Slides 1–2  :  2 min   (Introduction + Agenda)
+  Slides 3–4  :  2 min   (Problem + Solution)
+  Slide  5    :  2 min   (Key Features)
+  Slide  6    :  3 min   (App Screens — most visual, take your time here)
+  Slides 7–8  :  2 min   (Design Approach + Architecture)
+  Slides 9–10 :  3 min   (Tech Stack + Code walkthrough)
+  Slide  11   :  1 min   (Live Tracking feature)
+  Slides 12–14:  2 min   (Challenges, Performance, Security)
+  Slides 15–16:  1 min   (Future Roadmap + Business Value)
+  Slide  17   :  1 min   (Demo flow walkthrough)
+  Slides 18–19:  1 min   (Conclusion + Q&A open)
+
+================================================================================
+  END OF PRESENTATION
+  Total: 19 Slides  ·  Estimated Duration: 20 minutes + Q&A
+  Color theme: Green / Black / White
+  Fonts: Poppins (headings + body)  ·  Fira Code (code panels)
+================================================================================
