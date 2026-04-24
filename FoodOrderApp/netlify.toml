@@ -1,11 +1,13 @@
 [build]
-  command   = "npm run build"
-  publish   = "dist"
+  command = "npx expo export --platform web"
+  publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "20"
+  NODE_VERSION    = "20"
+  NODE_OPTIONS    = "--max_old_space_size=4096"
+  EXPO_NO_TELEMETRY = "1"
+  CI              = "false"
 
-# SPA fallback: all routes serve index.html so React Navigation handles them
 [[redirects]]
   from   = "/*"
   to     = "/index.html"
